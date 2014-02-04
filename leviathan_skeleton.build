@@ -5,5 +5,5 @@ projects[drupal][type] = "core"
 ; Our distribution
 projects[leviathan_skeleton][type] = "profile"
 projects[leviathan_skeleton][download][type] = "git"
-projects[leviathan_skeleton][download][url] = "ssh://git@github.com:narcissus921/leviathan_skeleton.git"
+projects[leviathan_skeleton][download][url] = "https://git@github.com:narcissus921/leviathan_skeleton.git"
 projects[leviathan_skeleton][download][branch] = "develop"
