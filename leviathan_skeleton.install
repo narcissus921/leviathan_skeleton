@@ -8,7 +8,7 @@ profile.
  * Perform actions to set up the site for this profile.
  *
  * @see system_install()
- */ function leviathan_install() {
+ */ function leviathan_skeleton_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
