@@ -1,0 +1,61 @@
+; Leviathan Core profile
+
+name = Leviathan Core
+description = The Leviathan Core config.
+version = 2
+core = 7.x
+
+; Required modules indicated as dependencies.
+; Modules listed in the .make file are downloaded.
+; Modules listed in dependencies list are installed when profile installs.
+
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = file
+dependencies[] = field_ui
+dependencies[] = rdf
+
+; Contrib dependencies
+
+; Path Modules
+
+dependencies[] = pathauto
+dependencies[] = pathologic
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = extlink
+dependencies[] = token
+
+; User Modules
+
+;dependencies[] = admin_menu
+dependencies[] = ctools
+dependencies[] = captcha
+dependencies[] = logintoboggan
+
+
+; Views
+
+dependencies[] = views
+
+; Forms and Fields
+
+dependencies[] = addressfield
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = webform
+
+; Misc
+
+dependencies[] = colorbox
+dependencies[] = date
+dependencies[] = libraries
+dependencies[] = rules
+dependencies[] = wysiwyg
