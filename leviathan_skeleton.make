@@ -50,6 +50,7 @@ projects[] = rules
 projects[] = colorbox
 projects[] = calendar
 projects[] = superfish
+projects[] = views
 
 ;  SEO modules
 projects[] = site_map
